@@ -31,10 +31,6 @@ public class PassController {
         this.passService = passService;
     }
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "김소코소코";
-    }
 
     //신규
     @GetMapping("/slideshow/new")
